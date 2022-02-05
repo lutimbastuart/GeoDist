@@ -1,4 +1,6 @@
 # GeoDist
+How to get the distance between Atoms 
+How to get the geometric centre of the molecule
 This Script is written to: 1. Calculate and print the distance between atoms like C1 and C3 of the provide molecule 
 2. Calculate and print the geometric center of the molecule.
 3. Compering the results with the existing molecular Dynamics tools (VMD). 
