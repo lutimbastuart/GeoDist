@@ -1,7 +1,7 @@
 #!/usr/bin/bash 
 clear
 echo -e "\e[34m \e[25m"
-echo -e " \t                  Intertromics AB / AfriBioMol AB \n               Protein Structure Modelling / Drug Discovery Department \n                                 Lutimba_Stuart's Lab                 \n  \t \t                  By Lutimba Stuart"
+echo -e " \t                  Intertromics AB / AfriBioMol AB \n               Protein Structure Modelling / Drug Discovery Department \n        \t                  By Lutimba Stuart"
 
 ###-----------Documentation--------------------
 : <<ScriptDocument_README
@@ -41,16 +41,16 @@ echo -e "\n"
 echo -e "\e[34m \e[3mExtracting Atomic Coordinates from the PDB file INH.pdb (GSK-3 Inhibitor IV MOlecule): ........."
 
 #Atomic Coordinates of C1 atom in (x,y,z) dimension 
-x_1=`echo | awk -v atmsel1="$atm_1" '{if ($2==atmsel1) print $6}' $PDB_file`
-y_1=`echo | awk -v atmsel1="$atm_1" '{if ($2==atmsel1) print $7}' $PDB_file`
-z_1=`echo | awk -v atmsel1="$atm_1" '{if ($2==atmsel1) print $8}' $PDB_file`
+x_1=`echo | awk -v atmsel1="$atm_1" '{if ($2==atmsel1) print $7}' $PDB_file`
+y_1=`echo | awk -v atmsel1="$atm_1" '{if ($2==atmsel1) print $8}' $PDB_file`
+z_1=`echo | awk -v atmsel1="$atm_1" '{if ($2==atmsel1) print $9}' $PDB_file`
 
 echo -e "\e[0mAtomic Coordinates of Atom $atm_1 (X Y Z):  \n $x_1\t$y_1 \t$z_1"
 
 #Atomic Coordinates of C3 atom in (x,y,z) dimension 
-x_2=`echo | awk -v atmsel2="$atm_2" '{if ($2==atmsel2) print $6}' $PDB_file`
-y_2=`echo | awk -v atmsel2="$atm_2" '{if ($2==atmsel2) print $7}' $PDB_file`
-z_2=`echo | awk -v atmsel2="$atm_2" '{if ($2==atmsel2) print $8}' $PDB_file`
+x_2=`echo | awk -v atmsel2="$atm_2" '{if ($2==atmsel2) print $7}' $PDB_file`
+y_2=`echo | awk -v atmsel2="$atm_2" '{if ($2==atmsel2) print $8}' $PDB_file`
+z_2=`echo | awk -v atmsel2="$atm_2" '{if ($2==atmsel2) print $9}' $PDB_file`
 
 echo -e "\nAtomic Coordinates of Atom $atm_2 (X Y Z):  \n $x_2 \t$y_2 \t$z_2"
 
