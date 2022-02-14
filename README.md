@@ -1,5 +1,5 @@
 # GeoDist
-**How to get the distance between Atoms 
+**How to get the distance between Atoms and Residues between Molecules 
 
 **How to get the geometric centre of the molecule
 
