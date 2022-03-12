@@ -1,8 +1,8 @@
 # GeoDist
                          Intertromics AB / AfriBioMol AB 
-                 Determination of Protein Structure AND Drug Discovery 
+                 Protein Structure Dynamics AND Drug Discovery 
         	                     By Lutimba Stuart
-             Research Fellow at the National Tsing Hua UniversityCancel changes
+             Research Fellow at the National Tsing Hua University 
 
 **How to get the distance between Atoms and Residues between Molecules 
 
