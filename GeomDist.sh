@@ -95,7 +95,7 @@ echo -e  "  X     \t\t    Y                      Z"
 printf "%f\t\t" "$x_geocent" "$y_geocent"  "$z_geocent" 
 
 echo -e "\n\n................................END.............................."
-echo -e "\e[2m\t\t           Intetromics AB"
+
 
 #To compare using the existing molecular dynamics analysis tools (Visual Molecular Dynamics -VMD)
 << 'Compare_Results'
@@ -112,3 +112,6 @@ set mol_all [atomselect top all]
 measure center \$mol_all
 START
 Compare_Results
+
+echo -e "\e[1m \e[32m \e[2m   \t \t @Intertromics_AB && @AfriBioMol_AB"
+echo -e "\e[0m \t       \t      ©2022"

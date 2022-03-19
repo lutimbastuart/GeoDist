@@ -20,3 +20,5 @@ B. bash  GeomDist.sh
 
 The name of the sample molecule is: 3-(2,4-Dichlorophenyl)-4-(1-methyl-1H-indol-3-yl)-1H-pyrrole-2,5-dione
 Common Name: GSK-3 Inhibitor IV
+
+Wish you all the best:

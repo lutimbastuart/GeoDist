@@ -1,0 +1,47 @@
+ 	                  Intertromics AB / AfriBioMol AB 
+               Protein Structure Modelling / Drug Discovery Department 
+        	                  By Lutimba Stuart
+
+	Structure File in .pdb format will be required:
+
+1. Calculating the Distance Between Atoms:
+
+ 
+Please in put a the PDB file_name of the Structure: 'Default is INH.pdb':   INH.pdb 
+Please select the resid number of the First Atom:   2
+Please select the resid number of the Second Atom:   20
+Printing the Selected atoms
+
+First Atom Selected
+N2	INH	Chain  X
+Second Atom Selected
+C20	INH	Chain  X
+
+
+ Extracting Atomic Coordinates from the PDB file INH.pdb (GSK-3 Inhibitor IV MOlecule): .........
+Atomic Coordinates of Atom 2 (X Y Z):  
+ 3.002	-0.581 	-0.857
+
+Atomic Coordinates of Atom 20 (X Y Z):  
+ 8.224 	-1.867 	-1.792
+
+  Calculating the distance between atoms exploiting the above atomic coordinate information: ...
+Implimenting the fomular Dist = √((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2)
+
+ Ans.1 The distance between atom 2 and atom 20 is 5.4586907771 Å
+
+2.  Calculate and print the geometric center of the molecule | INH.pdb
+
+ Extracting Atomic Coordinate Columns in each dimension from the PDB file | INH.pdb:......... 
+
+ Ans.2  	         Geometric Center of the molecule (Å)
+
+ 
+  X     		    Y                      Z
+4.423070		8.896960		0.186530		
+
+................................END..............................
+
+     	 	 @Intertromics_AB && @AfriBioMol_AB
+ 	       	      ©2022
+
