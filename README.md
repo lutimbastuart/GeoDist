@@ -1,4 +1,4 @@
-# GeoDist
+# GeomDist
                          Intertromics AB / AfriBioMol AB 
                  Protein Structure Dynamics AND Drug Discovery 
         	                     By Lutimba Stuart
